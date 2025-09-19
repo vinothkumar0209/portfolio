@@ -4,8 +4,11 @@ import AboutImg from '../assets/aboutImg.gif'
 function About() {
 
   const config = {
-    line1 : 'Hi, My name is Vinothkumar D. I am a Full Stack Web Developer. I built simple Ecommerce website with React.js,CSS,HTML.',
-    line2 : 'I am proficient in Frontend Skils like React, Axios, Tailwind CSS and Many more...'
+    line1 : '• Hi, My name is Vinothkumar D. I am a Full Stack Web Developer. I’m a curious person who enjoys learning and exploring new ideas.',
+    line2 : '• I have hands-on experience with React.js, ASP.NET Core, C#, SQL, MySQL, HTML, CSS, and JavaScript.',
+    line3 : '• I enjoy building web projects that solve real problems and look great.',
+    line4 : '• I like working with people, sharing knowledge, and collaborating on projects.',
+    line5 : '• I’m positive, adaptable, and always open to learning new technologies.'
 
   }
   return (
@@ -18,6 +21,9 @@ function About() {
             <h1 className='text-4xl mb-5 w-[170px] font-bold text-sky-400'>About Me</h1>
             <p className='pb-5'>{config.line1}</p>
             <p className='pb-5'>{config.line2}</p>
+            <p className='pb-5'>{config.line3}</p>
+            <p className='pb-5'>{config.line4}</p>
+            <p className='pb-5'>{config.line5}</p>
             </div>
         </div>
     </section>

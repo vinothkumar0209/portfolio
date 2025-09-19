@@ -1,6 +1,7 @@
 import React from 'react'
 import website1 from '../assets/website1.jpg'
 import website2 from '../assets/website2.jpg'
+import website3 from '../assets/website3.jpg'
 
 function Projects() {
 
@@ -8,13 +9,18 @@ function Projects() {
    projects : [
       {
          image : website1,
-         description : 'A Ecommerce Website. Built with React.js',
-         link :'http://github.com/vinothkumar0209/amazon-clone'
+         description : 'Hotel Booking Website',
+         link :'https://vinothkumar0209.github.io/Hotel_Booking/'
       },
       {
          image : website2,
+         description : 'GYM Transform Website',
+         link :'https://github.com/vinothkumar0209/Fitness_Gym'
+      },
+      {
+         image : website3,
          description : 'A Ecommerce Website. Built with React.js',
-         link :'http://github.com/vinothkumar0209/amazon-clone'
+         link :'https://github.com/vinothkumar0209/amazon-clone'
       }
    ]
   }    
@@ -23,7 +29,7 @@ function Projects() {
         <div className='w-full'>
            <div className='flex flex-col px-10 py-10 '>
               <h1 className='text-4xl mb-5 w-[140px] font-bold text-sky-400'>Projects</h1>
-              <p className=''>These are some of my projects. I have build these with React.js & CSS check them out.. </p>
+              <p className=''>These are some of my projects. I have build these with .NET,Asp.NET MVC,C#,MS SQL,MYSQL,React.js,CSS & HTML check them out.. </p>
            </div> 
         </div>
         <div className='w-full'>
